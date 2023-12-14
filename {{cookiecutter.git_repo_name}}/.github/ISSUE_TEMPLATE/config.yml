@@ -1,0 +1,9 @@
+---
+blank_issues_enabled: true
+contact_links:
+  - name: Go-Lang Information
+    url: https://go.dev/
+    about: Go-Lang Website
+  - name: Go-Lang Project Layout Information
+    url: https://github.com/golang-standards/project-layout
+    about: Go-Lang Project Layout Information

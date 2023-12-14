@@ -1,0 +1,23 @@
+{
+	"full_name": "Firstname Lastname",
+    "git_repo_name": "some-repo-name",
+    "git_url": "https://github.com/some-username/some-repo-name",
+	"app_description": "A short description",
+    "minimum_go_version": ["1.21","1.20"],
+    "__template_repo": "https://github.com/btr1975/cookiecutter-go",
+    "__template_version": "1.0.0",
+    "_copy_without_render": [
+        ".github"
+    ],
+    "__prompts__": {
+        "full_name": "Your Full Name",
+        "git_repo_name": "The Repository Name",
+        "git_url": "The full GIT URL",
+        "app_description": "A short description",
+        "minimum_go_version": {
+            "__prompt__": "What is the minimum Go version",
+            "1.21": "1.21",
+            "1.20": "1.20"
+        }
+    }
+}
