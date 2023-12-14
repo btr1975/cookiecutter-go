@@ -5,6 +5,10 @@ from typing import List
 import os
 import shutil
 
+REMOVE_PATHS_LIBRARY_ONLY = [
+    '{% if cookiecutter.library_only == "y" %}./build{% endif %}',
+]
+
 
 def remove_paths(paths_to_remove: List[str]) -> None:
     """Remove files and directories
@@ -23,4 +27,4 @@ def remove_paths(paths_to_remove: List[str]) -> None:
 
 
 if __name__ == '__main__':
-    pass
+    remove_paths(REMOVE_PATHS_LIBRARY_ONLY)

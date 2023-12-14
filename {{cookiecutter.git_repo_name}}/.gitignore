@@ -24,4 +24,4 @@
 coverage.html
 
 # Ignore temp file
-temp_main.go
+temp_*.go

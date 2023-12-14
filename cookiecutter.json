@@ -4,6 +4,7 @@
     "git_url": "https://github.com/some-username/some-repo-name",
 	"app_description": "A short description",
     "minimum_go_version": ["1.21","1.20"],
+    "library_only": ["n", "y"],
     "__template_repo": "https://github.com/btr1975/cookiecutter-go",
     "__template_version": "1.0.0",
     "_copy_without_render": [
@@ -18,6 +19,11 @@
             "__prompt__": "What is the minimum Go version",
             "1.21": "1.21",
             "1.20": "1.20"
+        },
+        "library_only": {
+            "__prompt__": "Is this a library only",
+            "n": "No",
+            "y": "Yes"
         }
     }
 }
