@@ -93,6 +93,8 @@ def validate_numbers_letters_hyphens(arg_name: str, human_readable_name: str) ->
 if __name__ == '__main__':
     validate_no_spaces_begin_or_end(arg_name='{{ cookiecutter.full_name }}',
                                     human_readable_name='full_name')  # pragma: no cover
+    validate_numbers_letters_hyphens(arg_name='{{ cookiecutter.git_username }}',
+                                     human_readable_name='git_username')  # pragma: no cover
     validate_numbers_letters_hyphens(arg_name='{{ cookiecutter.git_repo_name }}',
                                      human_readable_name='git_repo_name')  # pragma: no cover
     validate_https_url(arg_name='{{ cookiecutter.git_url }}',
