@@ -16,14 +16,30 @@ pip install cookiecutter
 
 * To use latest
 
+### HTTPS
+
 ```text
 cookiecutter https://github.com/btr1975/cookiecutter-go
 ```
 
+### SSH
+
+```text
+cookiecutter git@github.com:btr1975/cookiecutter-go
+```
+
 * To use a specific release
+
+### HTTPS
 
 ```text
 cookiecutter https://github.com/btr1975/cookiecutter-go -c 1.0.0
+```
+
+### SSH
+
+```text
+cookiecutter git@github.com:btr1975/cookiecutter-go -c 1.0.0
 ```
 
 4. Now you will be asked a series of questions. This is an example
