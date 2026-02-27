@@ -7,7 +7,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "cookiecutter-go"
-version = "1.0.3"
+version = "1.0.4"
 dynamic = ["readme"]
 requires-python = ">=3.9"
 description = "A cookiecutter for a go repository"
@@ -44,6 +44,7 @@ classifiers = [
 
 dependencies = [
     "cookiecutter~=2.6.0",
+    "urllib3>=2.6.3",
 ]
 
 [dependency-groups]
