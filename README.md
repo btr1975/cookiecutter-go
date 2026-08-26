@@ -1,3 +1,6 @@
+# ANY UPDATES TO THIS COOKIECUTTER WILL BE MADE HERE https://github.com/btr1975/cookiecutters
+# MOVED ALL MY COOKIECUTTERS TO A MULTI-REPO
+
 # cookiecutter-go
 * This is a "cookiecutter" repository designed to be used as a framework to create repository structure.
 
